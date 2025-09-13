@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background: #eee;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    width: 550px;
+    background: #ffff;
+    height: auto;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+   margin: 5vh;
+    border-radius: 5px;
+    flex-direction: column;
+    cursor: pointer;
+}
+/* .enter{
+    height: 10px;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    text-align: top;
+} */
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2vh;
+}
+.searchBox{
+    width: 350px;
+    height: 32px;
+    border: none;
+    outline: none;
+    border: 1px solid black;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10vh;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.searchBtn{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    cursor: pointer;
+    
+}
+.searchBtn:hover{
+    background: linear-gradient(#aaa, #eee);
+    transition: 0.3s ease-in-out;
+    color: #ffff;
+}
+.weather{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.wIcon{
+    height: 250px;
+    width: 300px;
+}
+.data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.Sun{
+    color: #ffff;
+    align-items: center;
+    text-align: center;
+}
+.time{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 0px 60px 0px 30px;
+}
+.dataSecond{
+    display: flex;
+    justify-content: space-between;
+}
+.humidityContent, .wind{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+}
+.data-wind, .data-humidity{
+    margin: 0 10px 0 10px;
+}
+.error{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    margin-top: 10vh;
+    text-align: center;
+    margin-top: 10px;
+    display: none;
+}
+.hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    margin-top: 10vh;
+    text-align: center;
+    margin-top: 10px;
+    display: none;
+    transition: 1s ease-in-out;
+}

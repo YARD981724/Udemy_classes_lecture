@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Application</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <input type="text" placeholder="Search..."  class="searchBox">
+            <button class="searchBtn" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+        <div class="hover"><h1>Enter you city name</h1></div>
+        <div class="error">
+            <h1>City name is not valid...</h1>
+        </div>
+
+        <div class="ram">
+        <div class="weather">
+            <img class="wIcon" src="images/clear-sky.png" alt="ram">
+        </div>
+        <div class="data">
+            <p class="haze"></p>
+            <h1 class="temp"></h1>
+            <h3 class="city"></h3>
+        </div>
+        <div class="sun">
+            <img class="Sun" src="images/sun.png" alt="sun">
+            <div class="time">
+                <div class="sun1">
+                    <p class="">Sunrise</p>
+                <p class="sunrise"></p>
+                </div>
+                <p><i class="fa-solid fa-exchange"></i></p>
+                <div class="sun2">
+                <p class="">Sunset</p>
+                <p class="sunset"></p>
+                </div>
+            </div>
+        </div>
+        <div class="dataSecond">
+            <div class="humidityContent">
+                <img src="images/thermometer.png" alt="humidity">
+                <div class="data-humidity">
+                    <p class="name">Humidity</p>
+                    <p class="humidity"></p>
+                </div>
+            </div>
+            <div class="wind">
+                <img src="images/wind.png" alt="wind">
+                <div class="data-wind">
+                    <p class="name">Wind Speed</p>
+                    <p class="windSpeed"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

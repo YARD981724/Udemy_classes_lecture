@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background: #333;
+}
+
+.message{
+    color: #fff;
+    text-align: center;
+    margin-top: 10vh;
+}
+.search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background: #aaa;
+    padding: 20px;
+}
+.searchBox, .searchBtn{
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid burlywood;
+    font-size: 16px;
+    font-weight: 500;
+}
+.searchBtn{
+    cursor: pointer;
+    background: #da2424;
+    color: #fff;
+    transition: 0.2s ease-in-out;
+    margin-left: 10px;
+}
+.searchBtn:hover, .recipeButton:hover, .closeBtn:hover{
+    color: #fff;
+    background: #fa1a1a;
+}
+.recipe-container {
+    align-items: center;
+    text-align: center;
+    display: grid;
+    margin-top: 80px;
+    width: 80%;
+    padding: 20px;
+    grid-gap: 40px;
+    margin: 10px auto;
+    place-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /* box-shadow: 10px 10px 10px rgba(34, 34, 34, 0.1), -5px 10px 10px rgba(78, 34, 34, 0.5); */
+}
+.recipe, img{
+    background: #ffff;
+    color: #000;
+    border-radius: 5px;
+    cursor: pointer;
+    max-width: 350px;
+    box-shadow: 10px 10px 10px rgba(78, 78, 73, 0.1), -5px 10px 10px rgba(73, 34, 34, 0.5);
+    transition: transform 0.5s ease-in-out;
+
+}
+.recipe:hover{
+    transform: scale(1.1);
+}
+.recipeButton{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #da2424;
+    color: #ffff;
+    padding: 5px;
+    border-radius: 4px;
+    margin: 5px;
+    font-weight: bold;
+}
+.recipe span{
+    color: black;
+    font-weight: bold;
+}
+.recipe-detail-container{
+    background: #aaaa;
+    width: 40%;
+    height: 50%;
+    top: 50%;
+    left: 50%;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50% -50%);
+    cursor: pointer;
+    overflow-y: auto;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10vh;
+    text-align: left;
+}
+.closeBtn{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    border: none;
+    outline: none;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background: transparent;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.recipeName, .ingredientList, .instructions{
+
+    margin: 10px 0px 0px 30px;
+}
+h3{
+    margin-left: 30px;
+}

@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid #000; */
+    padding: 1.7%;
+}
+.frontend, .brand, .college, a{
+    /* color: #16bbbb; */
+    /* color: #20e4e4; */
+    color: #000;
+    text-decoration: none;
+}
+.photo{
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    text-align: right;
+    margin-left: 10rem;
+}
+img{
+    width: 120px;
+    height: 120px;
+    /* border: 1.5px solid #dcdcdc; */
+    border: 0.1px solid #444444;
+    border-radius: 50%;
+}
+p, li{
+    font-size: 12px;
+}
+.project-name{
+    color: #333;
+}
+.college{
+    font-size: 14px;
+    font-weight: 540;
+}
+.profile{
+    margin-left: 2rem;
+}
+hr{
+    background: gainsboro;
+}
+u{
+margin-right: 10px;
+font-style: none;
+font-size: 14px;
+}
+.language{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hindi{
+    margin-right: 10rem;
+}
+.summary, .skills, .find, .passion, .language1, .education, .experience{
+    border-bottom: 2px solid #000;
+}
